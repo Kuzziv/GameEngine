@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Tt32fST8aEEGpcKy/iNnfvzXzMoqrsCcddsCdOkLhbzeYv9QrGbJLNP7ebKAGM+bWuX9IK/dUfEQ4B3bzq+p3g==",
+  "success": true,
+  "projectFilePath": "/home/tito/Projects/EngineGame/EngineGame.csproj",
+  "expectedPackageFiles": [
+    "/home/tito/.nuget/packages/yamldotnet/15.1.2/yamldotnet.15.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
