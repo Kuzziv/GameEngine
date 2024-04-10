@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="/home/tito/Projects/GameLib/bin/Debug/net8.0/GameLib.dll" />
+    <Reference Include="../GameLib/bin/Debug/net8.0/GameLib.dll" />
   </ItemGroup>
 
   <ItemGroup>

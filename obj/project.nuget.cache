@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Tt32fST8aEEGpcKy/iNnfvzXzMoqrsCcddsCdOkLhbzeYv9QrGbJLNP7ebKAGM+bWuX9IK/dUfEQ4B3bzq+p3g==",
+  "dgSpecHash": "S9h8XIzriLQHx4397/LiD38RH+tWgJxNCYKf1iir26Y77vwEIdmdLyzDXI65tg5DX8ml5/50yfQnU/+2YhG56g==",
   "success": true,
-  "projectFilePath": "/home/tito/Projects/EngineGame/EngineGame.csproj",
+  "projectFilePath": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\GameEngine\\EngineGame.csproj",
   "expectedPackageFiles": [
-    "/home/tito/.nuget/packages/yamldotnet/15.1.2/yamldotnet.15.1.2.nupkg.sha512"
+    "C:\\Users\\mads-\\.nuget\\packages\\yamldotnet\\15.1.2\\yamldotnet.15.1.2.nupkg.sha512"
   ],
   "logs": []
 }
