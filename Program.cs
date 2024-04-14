@@ -5,6 +5,9 @@ using GameEnvironment.Models;
 using Engine.Services;
 using Logging.Services;
 using Config.Services;
+using GameLib.CharacterFactory.Services;
+using GameLib.Lootsystem.Models;
+using GameLib.Lootsystem.Services;
 
 namespace YourNamespace
 {
@@ -13,7 +16,8 @@ namespace YourNamespace
         static void Main(string[] args)
         {
             // Give the path to the log files
-            string logDirectory = "/home/tito/Projects/EngineGame/YamlLog";
+            //string logDirectory = "/home/tito/Projects/EngineGame/YamlLog"; // Linux
+            string logDirectory = "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\GameEngine\\YamlLog\\"; // Windows
 
             Console.WriteLine("Hello and welcome to the game!");
 
@@ -24,11 +28,30 @@ namespace YourNamespace
             ILogger logger = new CombinedLogger(logDirectory);
 
             // Instantiate the CharacterFactory
-            ICharacterFactory characterFactory = new CharacterFactory.Services.CharacterFactory(logger);
+            ICharacterFactory playerFactory = new PlayerFactory();
+            ICharacterFactory npcFactory = new NpcFactory();
 
             // Use the CharacterFactory to create new characters
-            Hero hero = characterFactory.CreateHero("Tito", 100, 10, 5, 0, 0);
-            Monster monster = characterFactory.CreateMonster("Durax", 50, 8, 3, 5, 5);
+            Player hero = (Player)playerFactory.CreateCharacter("Tito", 100, 10, 5, 5, 5);
+            NPC monster = (NPC)npcFactory.CreateCharacter("Goblin", 50, 5, 2, 2, 2);
+
+            // Instantiate LootSystem
+            LootSystem lootSystem = new LootSystem();
+
+            // Create some weapons
+            IItem sword = new Weapon("Sword");
+            IItem axe = new Weapon("Axe");
+
+            // Add weapons to bags
+            Bag heroBag = new Bag();
+            heroBag.AddItem(sword);
+
+            Bag monsterBag = new Bag();
+            monsterBag.AddItem(axe);
+
+            // Assign bags to characters
+            hero.Inventory = heroBag;
+            monster.Inventory = monsterBag;
 
             // Output information about the created characters
             World world = new World(25, 25);
@@ -59,7 +82,7 @@ namespace YourNamespace
         {
             Console.SetCursorPosition(character.X * 3 + 1, character.Y + 1); // Adjust position for spacing
             Console.ForegroundColor = ConsoleColor.White; // Character color
-            Console.Write(character is Hero ? 'H' : 'M'); // 'H' for hero, 'M' for monster
+            Console.Write(character is Player ? 'H' : 'M'); // 'H' for hero, 'M' for monster
         }
     }
 }
