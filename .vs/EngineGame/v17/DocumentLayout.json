@@ -7,11 +7,8 @@
       "RelativeMoniker": "D:0:0:{D5DB0FF9-DCE8-44DE-AB8E-2198ABEEAA51}|EngineGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Config\\Services\\ConfigLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5DB0FF9-DCE8-44DE-AB8E-2198ABEEAA51}|EngineGame.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gameengine\\enginegame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D5DB0FF9-DCE8-44DE-AB8E-2198ABEEAA51}|EngineGame.csproj|solutionrelative:enginegame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D5DB0FF9-DCE8-44DE-AB8E-2198ABEEAA51}|EngineGame.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gameengine\\yamllog\\config.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D5DB0FF9-DCE8-44DE-AB8E-2198ABEEAA51}|EngineGame.csproj|solutionrelative:yamllog\\config.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,27 +59,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ConfigLoader.cs",
-              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Config\\Services\\ConfigLoader.cs",
-              "RelativeDocumentMoniker": "..\\gamelib\\Config\\Services\\ConfigLoader.cs",
-              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Config\\Services\\ConfigLoader.cs",
-              "RelativeToolTip": "..\\gamelib\\Config\\Services\\ConfigLoader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T15:30:39.749Z",
+              "Title": "config.yaml",
+              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\GameEngine\\YamlLog\\config.yaml",
+              "RelativeDocumentMoniker": "YamlLog\\config.yaml",
+              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\GameEngine\\YamlLog\\config.yaml",
+              "RelativeToolTip": "YamlLog\\config.yaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-04-14T15:41:07.295Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EngineGame.csproj",
-              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\GameEngine\\EngineGame.csproj",
-              "RelativeDocumentMoniker": "EngineGame.csproj",
-              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\GameEngine\\EngineGame.csproj",
-              "RelativeToolTip": "EngineGame.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-10T17:05:55.876Z"
             },
             {
               "$type": "Document",
@@ -92,7 +77,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\GameEngine\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T17:05:39.393Z",
               "EditorCaption": ""
